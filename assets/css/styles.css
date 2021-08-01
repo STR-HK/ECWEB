@@ -47,7 +47,7 @@ img {
 
 .card {
   width: 320px;
-  height: 400px;
+  height: 450px;
   background-color: var(--dark-color);
   border-radius: 1rem;
   padding: 4rem 2rem 0;
@@ -59,7 +59,7 @@ img {
   position: absolute;
   width: 230px;
   filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
-
+  padding-top: 1rem;
 }
 
 .card__data {
@@ -71,6 +71,7 @@ img {
   font-size: var(--h1-font-size);
   color: var(--first-color);
   margin-bottom: .5rem;
+  padding-top: 2rem;
 }
 
 .card__preci {
@@ -78,5 +79,5 @@ img {
   font-size: var(--h2-font-size);
   font-weight: 300;
   margin-bottom: 1.25rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
