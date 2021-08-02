@@ -21,4 +21,10 @@ def root(request: Request):
 
 
 if __name__ == "__main__":
-    uvicorn.run("server:app", host="192.168.0.2", port=8123)
+    uvicorn.run(
+        "server:app",
+        host="192.168.0.2",
+        port=8123,
+        ssl_keyfile="./key.pem",
+        ssl_certfile="./cert.pem",
+    )
