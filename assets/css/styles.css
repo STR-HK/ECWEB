@@ -5,9 +5,10 @@
   /*===== COLORS VARIABLES =====*/
   --first-color: #D25B71;
   --white-color: #F5C9DA;
-  --dark-color: #160f1d;
+  --dark-color: #3b294c;
   --dark-color-lighten: #F2F5FF;
   /*===== FONTS VARIABLES =====*/
+  /* --body-font: 'Poppins', sans-serif; */
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1rem;
@@ -30,7 +31,7 @@ h1, p {
   margin: 0;
 }
 
-img {
+.card__img {
   max-width: 100%;
   height: auto;
   margin-left: 1rem;
@@ -47,7 +48,7 @@ img {
 
 .card {
   width: 320px;
-  height: 450px;
+  height: 500px;
   background-color: var(--dark-color);
   border-radius: 1rem;
   padding: 4rem 2rem 0;
@@ -75,9 +76,35 @@ img {
 }
 
 .card__preci {
-  display: inline-block;
+  display: block;
   font-size: var(--h2-font-size);
   font-weight: 300;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
   padding-top: 1.5rem;
+}
+
+#left {
+  display: none;
+}
+
+.change {
+  background-color: var(--dark-color);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 5px;
+
+  box-shadow: 0 0 4px 0 rgb(0 0 0);
+}
+
+.changeicon {
+  height: 15px;
+  width: 15px;
+
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(327deg) brightness(104%) contrast(97%);
+  /* filter: brightness(100%); */
 }

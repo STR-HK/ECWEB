@@ -1,0 +1,13 @@
+시오 14.39.59.110 -> Korea Seongbuk-gu
+정진규 106.101.67.126 -> Korea Seoul
+황준서 121.154.98.111 -> Korea Jeonju
+이유민 211.110.231.153 -> Korea Jeonju
+
+<이후 온 기괴한 아이피들>
+37.120.155.228 -> Austria Vienna
+34.250.32.148 -> Ireland Dublin
+167.160.52.126 -> UnitedStates NewYork
+181.214.202.140 -> UnitedStates SiouxFalls
+38.108.182.5 -> UnitedStates Unknown
+52.250.42.144 -> UnitedStates Unknown
+3.104.111.108 -> Australia Sydney
