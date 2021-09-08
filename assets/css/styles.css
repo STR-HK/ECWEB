@@ -5,7 +5,7 @@
   /*===== COLORS VARIABLES =====*/
   --first-color: #D25B71;
   --white-color: #F5C9DA;
-  --dark-color: #3b294c;
+  --dark-color: #281227;
   --dark-color-lighten: #F2F5FF;
   /*===== FONTS VARIABLES =====*/
   /* --body-font: 'Poppins', sans-serif; */
@@ -25,17 +25,12 @@ body {
   padding: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+
+  background: linear-gradient(90deg, rgb(56 27 54) 0%, rgba(40,18,39,1) 100%);
 }
 
 h1, p {
   margin: 0;
-}
-
-.card__img {
-  max-width: 100%;
-  height: auto;
-  margin-left: 1rem;
-  margin-top: -3rem;
 }
 
 /*===== CARD =====*/
@@ -49,33 +44,40 @@ h1, p {
 .card {
   width: 320px;
   height: 500px;
-  background-color: var(--dark-color);
   border-radius: 1rem;
   padding: 4rem 2rem 0;
   color: var(--white-color);
   overflow-y: hidden;
+
+  box-shadow: 6px 6px 20px 0px rgb(31 14 30), -8px -8px 20px 4px rgb(47 23 46);
+  background: linear-gradient(127deg, rgba(64,37,63,1) 0%, rgba(45,17,45,1) 100%);
+
 }
 
-.card__img {
+.card_img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 1rem;
+  margin-top: -3rem;
   position: absolute;
   width: 230px;
   filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
   padding-top: 1rem;
 }
 
-.card__data {
+.card_data {
   transform: translateY(11.2rem);
   text-align: center;
 }
 
-.card__title {
+.card_title {
   font-size: var(--h1-font-size);
   color: var(--first-color);
   margin-bottom: .5rem;
   padding-top: 2rem;
 }
 
-.card__preci {
+.card_preci {
   display: block;
   font-size: var(--h2-font-size);
   font-weight: 300;
@@ -88,23 +90,26 @@ h1, p {
 }
 
 .change {
-  background-color: var(--dark-color);
+  background-color: #351a34;
   cursor: pointer;
   outline: none;
   border: none;
-  padding-top: 3px;
+
+  padding-top: 6px;
   padding-bottom: 3px;
   padding-left: 6px;
   padding-right: 6px;
+
   border-radius: 5px;
 
-  box-shadow: 0 0 4px 0 rgb(0 0 0);
+  box-shadow: 0 0 16px 0px rgb(19 19 19);
+  -webkit-tap-highlight-color: transparent;
 }
+
 
 .changeicon {
   height: 15px;
   width: 15px;
 
   filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(327deg) brightness(104%) contrast(97%);
-  /* filter: brightness(100%); */
 }

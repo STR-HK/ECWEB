@@ -19,15 +19,15 @@ function zeroFill( number, width )
 
 function calc() {
     now = Date.now()
-    var calced = exam - now
-    dateleft = Math.floor(calced / (24 * 60 * 60 * 1000))
+    var calculated = exam - now
+    dateleft = Math.floor(calculated / (24 * 60 * 60 * 1000))
 
     dateleftviewer.innerHTML = `${dateleft} Days Left`
     
-    fS = calced / (1000)
-    fM = calced / (1000 * 60)
-    fH = calced / (1000 * 60 * 60)
-    fd = calced / (1000 * 60 * 60 * 24)
+    fS = calculated / (1000)
+    fM = calculated / (1000 * 60)
+    fH = calculated / (1000 * 60 * 60)
+    fd = calculated / (1000 * 60 * 60 * 24)
 
     d = Math.floor(fd)
     H = Math.floor(fH) - ( d * 24 )
@@ -48,11 +48,11 @@ function change() {
     if (dateleftviewer.style.display != 'none') {
         dateleftviewer.style.display = 'none'
         leftviwer.style.display = 'block'
-        changebtn.style.boxShadow = 'inset 0 0 4px 0 rgb(0 0 0)'
+        changebtn.style.boxShadow = 'inset 0 0 16px 0 rgb(19 19 19)'
     } else {
         dateleftviewer.style.display = 'block'
         leftviwer.style.display = 'none'
-        changebtn.style.boxShadow = '0 0 4px 0 rgb(0 0 0)'
+        changebtn.style.boxShadow = '0 0 16px 0px rgb(19 19 19)'
     }
 }
 
