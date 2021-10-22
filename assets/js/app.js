@@ -5,7 +5,7 @@ let changebtn = document.getElementById('change')
 let fd, fH, fM, fS = 0
 let d, H, M, S = 0
 
-let exam = Date.parse('2021-10-12 09:00:00')
+let exam = Date.parse('2021-11-03 09:00:00')
 
 function zeroFill( number, width )
 {
